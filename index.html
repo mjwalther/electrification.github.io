@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <script src="d3.min.js"></script>
+        <script src="picto.js" defer></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>California Opioid Report</h1>
+        </header>
+        
+        <!-- navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="map.html">Mapping the Crisis</a></li>
+                <li><a href="https://narcan.com#how-to-administer" target="_blank">Narcan Guide</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- scroll indicator bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="scrollBar"></div>
+        </div>
+
+        <script>
+            window.onscroll = function() {progressBar()};
+
+            function progressBar() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("scrollBar").style.width = scrolled + "%";
+          }
+        </script>
+
+        <div class="scroll-indicator"></div>
+
+        <section id="background-info">
+            <!-- code for background -->
+            <p>The United States is currently experiencing the worst opioid epidemic in its history. The surge in misuse of opioids and <a href="https://www.statista.com/chart/16647/the-lifetime-odds-of-dying-from-selected-causes/" target="_blank">opioid overdose deaths</a> has surpassed the likelyhood of death resulting from car crashes or suicide. </p>
+            <p>In the 1990s and 2000s, the increase in opioid mortality was primarily related to prescription opioids. During this period, pharmaceutical companies downplayed the potential addictive effects of opioids. </p>
+            <p>However, after 2010, another spike of opioid overdose was largely driven by illegal opioids, such as heroin and synthetic fentanyl. </p>
+            <p>Although Purdue Pharma <a href="https://ldi.upenn.edu/our-work/research-updates/opioids-and-hepatitis-c-how-oxycontin-fed-a-new-epidemic/#:~:text=Purdue%20Pharma%27s%202010%20reformulation%20of,reducing%20opioid%20addiction%20and%20death." target="_blank">reformulated</a> its OxyContin to prevent misuse in 2010, this intervention inadvertently worsened the opioid crisis. Many individuals turned to more dangerous and illicit street opioids. </p>
+            <p>Find out more about the current state of opioid prescriptions and fatalities below. You can also explore your county’s overdose rate and opioid prescription statistics from the recent 2022 data in our <a href="map.html">Mapping the Crisis</a> section. </p>
+        </section>
+
+        <section id="chart-title">
+           <h2>Opioid prescriptions have been decreasing.</h2> 
+        </section>
+
+        <section class="chart" id="prescription">
+            <div class="grid-container">
+                <!--
+                <div class="grid-item">
+                    <div id='grid-chart'></div>
+                </div>
+                <div class="grid-item">
+                    <p>Shown to the left will be the rate of opioid prescriptions per 1,000 residents in California.</p>
+                </div>
+                -->
+                <div class="grid-item">
+                    <div id='grid-2012'></div>
+                </div> 
+                <div class="grid-item" id="grid-text">
+                    <p>In 2012, for every 1,000 residents, there were about 600 opioid prescriptions being given.</p>
+                </div>
+                <div class="grid-item">
+                    <div id='grid-2022'></div>
+                </div>
+                <div class="grid-item" id="grid-text">
+                    <p>Ten years later, that rate of prescriptions has halved to around 300.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="overview">
+            <h2>Yet, opioid overdoses have been on the rise.</h2>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/17149282"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </section>
+
+    </body>
+
+    <script type="text/javascript" src="picto-chart.js"></script>
+
+    <footer>
+        <p> © Copyright 2023 Team Red. All Rights Reserved.</p>
+    </footer>
+</html>
