@@ -21,3 +21,11 @@ To analyze the relationship between EV adoption and personal income by zip code,
 
 ### Dataset 5: ElectricVehicles2022.csv
 This dataset contains the same type of information as Dataset 2 (ElectricVehicles2023.csv) and is sourced from the same [California Energy Commission dashboard](http://www.energy.ca.gov/zevstats). It includes electric vehicle registration data at the ZIP-code level for the year 2022.
+
+## Data Analysis
+
+### Zip_vs_County_Adoption_Rates.ipynb
+This code takes in Dataset 1 (ZipCodeToCounty.csv) and Dataset 2 (ElectricVehicles2023.csv) to analyze the relationship between electric vehicle adoption rates at the zip code and county level. In addition to quantitative statistics about the datasets, the code also produces the following figures: “Zip vs County EV Adoption Rates,” “Top EV Adoption Outliers By Zip,” and “Top 10 Counties by Standard Deviation of EV Adoption.”
+
+### Income_Based_Adoption_Curve.ipynb
+This code takes in Dataset 4 (AGI_by_Zip_2022.csv) and Dataset 5 (ElectricVehicles2022.csv) to analyze the relationship between electric vehicle adoption and income. The code produces the figure, “EV Adoption vs. Income.”
