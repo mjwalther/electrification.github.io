@@ -12,3 +12,6 @@ This dataset maps California ZIP codes to their corresponding counties and inclu
 ### Dataset 2: ElectricVehicles2023.csv:
 This dataset contains the number of light-duty electric vehicles registered in California ZIP codes in 2023. It uses data from the California Energy Commission’s Zero Emission Vehicle and Infrastructure Statistics Dashboard, which originally includes vehicle data from 2010 to 2023. The original dataset covers Diesel, Gasoline, Hybrid, and Electric vehicles and is aggregated at both the ZIP and County levels.
 For this project, I filtered the dataset to include only Battery Electric Vehicles (BEVs), Fuel Cell Electric Vehicles (FCEVs), and Plug-In Hybrid Electric Vehicles (PHEVs) from the year 2023. For more information on the source data, contact: mediaoffice@energy.ca.gov.
+
+### Dataset 3: EVs_by_Zip.csv
+This dataset was used to create a ZIP-code level dashboard in ArcGIS. It combines data from Dataset 1 (ZipCodeToCounty.csv) and Dataset 2 (ElectricVehicles2023.csv), filtered to include only records from 2023. A new column, EVs per Capita, was created by dividing the number of electric vehicles by the ZIP code population (Number of Vehicles / ZIP Code Population).
