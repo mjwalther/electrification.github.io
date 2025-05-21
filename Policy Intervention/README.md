@@ -18,3 +18,6 @@ This dataset was used to create a ZIP-code level dashboard in ArcGIS. It combine
 
 ### Dataset 4: AGI_by_Zip_2022.csv:
 To analyze the relationship between EV adoption and personal income by zip code, I used data on personal income tax in California. Data was pulled from California Data Portal’s dataset, [“Personal Income Tax Statistics By Zip Code.”](https://data.ca.gov/dataset/personal-income-tax-statistics-by-zip-code/resource/7091fcca-e695-49ab-aa44-6e0c6f49c9c1) The original dataset extends from 1992 to 2022 and contains information on tax returns, California AGI, Total Tax Liability, and coordinates, for each California zip code. I filtered the original dataset to only include information from the most recent year, 2022. 
+
+### Dataset 5: ElectricVehicles2022.csv
+This dataset contains the same type of information as Dataset 2 (ElectricVehicles2023.csv) and is sourced from the same [California Energy Commission dashboard](http://www.energy.ca.gov/zevstats). It includes electric vehicle registration data at the ZIP-code level for the year 2022.
