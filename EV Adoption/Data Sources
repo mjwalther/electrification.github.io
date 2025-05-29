@@ -1,0 +1,38 @@
+Source: California Energy Commission
+Data: Total LDV Sales, ZEV Sales
+https://www.energy.ca.gov/files/zev-and-infrastructure-stats-data
+
+Source: Department of Housing and Community Development
+Data: Area Median Income
+2024
+https://www.hcd.ca.gov/sites/default/files/docs/grants-and-funding/income-limits-2024.pdf
+2023
+https://www.hcd.ca.gov/sites/default/files/docs/grants-and-funding/income-limits-2023.pdf
+2022
+https://www.hcd.ca.gov/docs/grants-and-funding/inc2k22.pdf
+2021
+https://www.hcd.ca.gov/grants-funding/income-limits/state-and-federal-income-limits/docs/income-limits-2021.pdf
+
+Source: United States Census Bureau
+Data: Population Estimates 2021 to 2023
+https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html
+
+Source: Department of Finance
+Data: Population Estimate 2024
+https://dof.ca.gov/wp-content/uploads/sites/352/2024/12/PressRelease_July2024-1.pdf
+
+Source: California Energy Commission 
+Data: Charging Infrastructure (Public Level 1, Shared Private Level 1, …, Shared Private DC Fast)
+https://www.energy.ca.gov/files/zev-and-infrastructure-stats-data
+
+Source: Department of Finance
+Data: Housing Information (Single detached, Single attached, … Five Plus)
+https://dof.ca.gov/forecasting/demographics/estimates/e-5-population-and-housing-estimates-for-cities-counties-and-the-state-2020-2024/
+Single Detached: The number of housing units that are single-family homes, typically standalone houses not attached to any other structures.
+Single Attached: The number of housing units that are single-family homes, but they are attached to one or more other units (such as townhouses or duplexes).
+Two to Four: The number of housing units in buildings that contain between two and four units (such as small apartment buildings or duplexes).
+Five Plus: The number of housing units in buildings with five or more units (typically larger apartment buildings or complexes).
+
+Source: California Open Data Portal
+Data: California County Shapefile (used for mapping in ArcGIS)
+https://data.ca.gov/dataset/ca-geographic-boundaries
