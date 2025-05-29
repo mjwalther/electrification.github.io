@@ -61,12 +61,6 @@ ZEV Equity Index = z(Income) + z(Chargers per Capita) + z(Share of Multi-Family 
 
 ---
 
-# Analyzing California’s Transition to Electric Vehicles
-
-This repository supports the development of a “scrolly-telling” dashboard that visualizes how electric vehicle (EV) adoption is progressing across California counties. The project emphasizes **equity** — exploring who has access to EVs and chargers and who does not — to help residents and policymakers make informed decisions.
-
----
-
 ## Repository Structure
 
 ### Folder: `EV Adoption`
