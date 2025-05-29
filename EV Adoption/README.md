@@ -58,3 +58,7 @@ ZEV Equity Index = z(Income) + z(Chargers per Capita) + z(Share of Multi-Family 
 - **Link relevant resources** on EV adoption, charging, and financial assistance
 - Conduct deeper **policy analysis** to localize and strengthen the recommendations
 
+
+---
+
+
