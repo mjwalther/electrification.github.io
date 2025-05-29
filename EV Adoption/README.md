@@ -61,4 +61,67 @@ ZEV Equity Index = z(Income) + z(Chargers per Capita) + z(Share of Multi-Family 
 
 ---
 
+# Analyzing California’s Transition to Electric Vehicles
+
+This repository supports the development of a “scrolly-telling” dashboard that visualizes how electric vehicle (EV) adoption is progressing across California counties. The project emphasizes **equity** — exploring who has access to EVs and chargers and who does not — to help residents and policymakers make informed decisions.
+
+---
+
+## Repository Structure
+
+### Folder: `EV Adoption`
+
+#### data
+
+- **Final Dataset/**
+  - Contains a single curated `.csv` combining all key metrics by California county from **2021 to 2024**:
+    - ZEV sales
+    - Chargers per capita
+    - Area median income
+    - Population estimates
+    - Housing breakdowns
+
+- **Raw datasets:**
+  - `2021_income_CA_counties.xlsx`, `2022_income_CA_counties.xlsx`, `2024_income_CA_counties.xlsx`
+  - `2024_ev_infrastructure_data.csv`, `q3_20XX_EV_Chargers.csv`
+  - `Housing_Information.xlsx`
+  - `ev_data.csv` (ZEV sales by county)
+
+#### Python Files
+
+All scripts are documented and written using **pandas**, **matplotlib**, and **seaborn**.
+
+- `ev_infrastructure_combined_data.py`  
+  Merges and cleans all datasets into the final CSV.
+
+- **Visualization scripts:**
+  - `multiFamilyHomes_vs_ZEVsales.py`
+  - `zev_vs_income.py`
+  - `...` (other data visualizations)
+
+#### Graphs
+
+- Contains PNG outputs of the visualizations above.
+- These plots helped shape the final dashboard design and focus.
+
+---
+
+## Data Sources
+
+A document titled **`Data Sources`** in the main folder includes links and descriptions for each dataset used, such as:
+
+- ZEV Sales by California County  
+- Area Median Income  
+- Population Estimates (2021–2024)  
+- Public EV Charging Infrastructure  
+- Housing Type Breakdowns  
+- California County Shapefiles  
+
+---
+
+## Project Description
+
+The **interactive dashboard** was built to show how electric vehicle adoption differs across counties in California. By emphasizing **equity indicators**, the project highlights both progress and remaining gaps in EV accessibility and infrastructure.
+
+All graphs and data were developed in the **first phase** of the project. These insights guided the creation of the **ArcGIS-powered scrolly-telling dashboard** in the second phase.
 
