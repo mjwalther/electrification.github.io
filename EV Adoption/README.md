@@ -4,7 +4,7 @@ Access / Duplicate Here: https://arcg.is/015bf80
 
 **California’s Transition to Electric Vehicles** is an interactive, scrolly-telling dashboard built to help **residents**, **policymakers**, and **advocates** understand the evolving landscape of electric vehicle (EV) adoption across the state.
 
-This tool aggregates **county-level data** to visualize the **environmental**, **social**, and **infrastructural** dimensions of the shift to zero-emission vehicles (ZEVs). A special focus is placed on **equity**, offering a lens into the disparities in EV access and charging infrastructure.
+This tool aggregates **county-level data** to visualize the **social** and **infrastructural** dimensions of the shift to zero-emission vehicles (ZEVs). A special focus is placed on **equity**, offering a lens into the disparities in EV access and charging infrastructure.
 
 ---
 
