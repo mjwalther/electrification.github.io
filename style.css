@@ -9,15 +9,15 @@
 .Incert-6-hex { color: #266087; }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fcfcf2;
+    font-family: 'Inter', sans-serif;
+    background-color: #ECFFDC;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
 header {
-    color: #054a91;
+    color: #478778;
     padding-top: 20px;
     padding-bottom: 5px;
     text-align: center;
@@ -44,7 +44,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #054a91;
+    color: #2E8B57;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
@@ -63,17 +63,17 @@ nav ul li a:hover {
     z-index: 5;
     width: 100%;
     height: 6px;
-    background: #f17300
+    background: #00b894
 }
 
 .progress-bar {
     height: 6px;
-    background: #054a91;
+    background: #00b894;
     width: 0%;
 }
 
 footer p {
-    color:#054a91;
+    color:#000000;
     font-size: 10px;
     margin: 50px auto;
     padding: 10px;
@@ -92,9 +92,7 @@ footer p {
 }
 
 p {
-    color: #054a91;
-    /*padding-top: 5px;
-    padding-bottom: 5px;*/
+    color: #000000;
     text-align: justify;
     font-size: 14px;
     margin: 60px auto;
