@@ -24,6 +24,12 @@ header {
     font-size: 24px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 nav ul {
     list-style-type: none;
     overflow: hidden;
@@ -76,28 +82,6 @@ footer p {
     width: 100%;
   }
 
-.county-label {
-    background-color: rgba(255, 255, 255, 0.976);
-    border: none;
-    box-shadow: none;
-    color: black;
-    font-size: 20px; 
-    text-align: center;
-}
-
-#filterTitle {
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-#countyTitle {
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-.map {
-    background-color: #fcfcf2 !important;
-}
 
 .controls-container {
     display: flex;
@@ -105,10 +89,6 @@ footer p {
     align-items: center;
     justify-content: center;
     gap: 5px;
-}
-
-#california-map {
-    background-color: #fcfcf2 !important;
 }
 
 p {
@@ -130,13 +110,6 @@ h2 {
     display: flex;
     justify-content: center;
     position: relative;
-
-  /*color: #054a91;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: left;
-  font-size: 24px;
-  margin-left: 60px auto; */
 }
 
 
@@ -146,15 +119,6 @@ img {
   margin-right: auto;
   width: 50%;
 }
-
-/*
-.back-button{
-  color: #054a91;
-  text-align: left;
-  font-size: 30px;
-  margin-left: 60px auto;
-  text-decoration: none;
-}*/
 
 .back-button {
     position: absolute;
