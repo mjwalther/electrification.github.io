@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Residential Electrification</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .launch-button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+        background-color: #f17300;
+        border: none;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-top: 1em;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s;
+      }
+
+      .launch-button:hover {
+        background-color: #d46200;
+      }
+    </style>
   </head>
 
   <body>
     <header>
       <h1>Residential Electrification</h1>
-      <div style="text-align: center; margin-top: 1em;">
-        <img
-          src="Residential Electrification/Dashboard_Preview.png"
-          alt="Screenshot of the Residential Electrification Dashboard"
-          style="max-width: 95%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);"
-        />
-        <p style="font-style: italic; color: #555; margin-top: 0.5em;">
-          A preview of the interactive dashboard
-        </p>
-      </div>
     </header>
 
     <nav>
@@ -31,7 +41,26 @@
       </ul>
     </nav>
 
-    <section id="about-info">
+    <div style="text-align: center; margin-top: 1.5em;">
+      <img
+        src="Residential Electrification/Dashboard_Preview.png"
+        alt="Screenshot of the Residential Electrification Dashboard"
+        style="max-width: 95%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);"
+      />
+      <p style="font-style: italic; color: #555; margin-top: 0.5em;">
+        A preview of the interactive dashboard
+      </p>
+
+      <a
+        href="https://electricity-dashboard-under-construction.onrender.com"
+        target="_blank"
+        class="launch-button"
+      >
+        ➤ Launch the Dashboard
+      </a>
+    </div>
+
+    <section id="about-info" style="margin-top: 2em;">
       <p>
         The <strong>Residential Electrification Dashboard</strong> is an interactive tool designed to help California residents assess the financial and environmental impacts of electrifying their homes. It offers localized simulations that compare utility costs and emissions under various energy plans and electrification scenarios.
       </p>
@@ -57,16 +86,6 @@
           <li>EV adoption and charging impact simulation</li>
           <li>Downloadable reports and historical trend visualization</li>
         </ul>
-      </p>
-
-      <p style="text-align: center">
-        <a
-          href="https://electricity-dashboard-under-construction.onrender.com"
-          target="_blank"
-          style="font-weight: bold; color: #f17300"
-        >
-          ➤ Launch the Dashboard
-        </a>
       </p>
     </section>
 
