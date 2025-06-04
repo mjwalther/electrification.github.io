@@ -1,4 +1,3 @@
-/* Color Swatches in Hex */
 .Incert-1-hex { color: #054a91; }
 .Incert-2-hex { color: #3e7cb1; }
 .Incert-3-hex { color: #81a4cd; }
@@ -6,7 +5,7 @@
 .Incert-5-hex { color: #f17300; }
 .Incert-6-hex { color: #fcfcf2; }
 .Incert-7-hex { color: #f2eacc; }
-.Incert-6-hex { color: #266087; }
+.Incert-8-hex { color: #266087; }
 
 body {
     font-family: 'Inter', sans-serif;
